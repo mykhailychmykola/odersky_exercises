@@ -15,7 +15,7 @@ class Cons[T](val head: T, val tail: List[T]) extends List[T]{
 
   def nth[T](list: List[T], n: Int): T = {
     if (list.isEmpty) throw new IndexOutOfBoundsException("Hey Man!!!")
-    if (n == 0) list.head
+    else if (n == 0) list.head
     else nth(list.tail, n - 1)
   }
 
