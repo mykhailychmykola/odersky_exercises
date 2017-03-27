@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaProjectSettings">
+    <option name="outputLimit" value="100" />
+    <option name="useEclipseCompatibility" value="true" />
+  </component>
+</project>
